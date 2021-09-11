@@ -1,0 +1,51 @@
+/* Styling for FormUpload */
+.upload-button {
+  top: 40px;
+  right: 0;
+  position: fixed;
+  margin-right: 60px;
+  display: inline;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #2950B3;
+  color: white;
+  padding: 15px 30px 15px 30px;
+  border-width: 0;
+  border-radius: 5px;
+  outline: none;
+  horiz-align: center;
+}
+
+.upload-button:hover {
+  background-color: #0074EF;
+}
+
+.upload-button img {
+  width: 15px;
+  height: 15px;
+  padding-left: 10px;
+}
+
+.form-upload {
+  height: 60px;
+}
+
+.upload-input {
+  padding: 10px;
+  height: 30px;
+}
+.upload-submit {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #2950B3;
+  color: white;
+  padding: 15px 30px 15px 30px;
+  border-width: 0;
+  border-radius: 5px;
+  outline: none;
+}
+
+.upload-submit:hover {
+  background-color: #0074EF;
+}
+
+

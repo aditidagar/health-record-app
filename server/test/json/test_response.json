@@ -1,0 +1,200 @@
+{
+    "patientID": "patient id",
+    "form": {
+        "body": [
+            {
+               "type":"DisplayedItem",
+               "ID":"39617.100004300",
+               "title":"# This checklist applies principally to adrenal carcinomas in adults. Pediatric adrenal cortical tumors have different criteria for malignancy and are, in general, treated under protocols that may differ significantly from the recommendations for adult- type tumors."
+            },
+            {
+               "minCard":0,
+               "maxCard":1,
+               "childItems":[
+                  {
+                     "minCard":0,
+                     "maxCard":1,
+                     "childItems":[
+                        
+                     ],
+                     "type":"QS",
+                     "list":[
+                        {
+                           "selectionDeselectsSiblings":false,
+                           "value":false,
+                           "type":"Option",
+                           "ID":"2119.100004300",
+                           "title":"Adrenal gland",
+                           "childItems":[
+                              
+                           ]
+                        }
+                     ],
+                     "ID":"2118.100004300",
+                     "title":""
+                  }
+               ],
+               "type":"Section",
+               "ID":"4257.100004300",
+               "title":""
+            },
+            {
+               "minCard":0,
+               "maxCard":1,
+               "childItems":[
+                  {
+                     "minCard":0,
+                     "maxCard":1,
+                     "childItems":[
+                        
+                     ],
+                     "type":"QR",
+                     "ID":"4156.100004300",
+                     "title":"Clinical History (specify)",
+                     "responseField":{
+                        "responseRequired":true,
+                        "textAfterResponse":"",
+                        "dType":"string",
+                        "maxLength":4000,
+                        "value":"lala"
+                     }
+                  },
+                  {
+                     "minCard":0,
+                     "maxCard":1,
+                     "maxSelection":0,
+                     "minSelection":1,
+                     "childItems":[
+                        
+                     ],
+                     "type":"QM",
+                     "list":[
+                        {
+                           "type":"DisplayedItem",
+                           "ID":"inner_array_disp",
+                           "title":"# inner displayedItem",
+                           "childItems":[]
+                        },
+                        {
+                           "selectionDeselectsSiblings":false,
+                           "value":false,
+                           "type":"Option",
+                           "ID":"20900.100004300",
+                           "title":"Urinary 17-ketosteroids increased (10 mg / g creatinine / 24 hours)",
+                           "childItems":[
+                              {
+                                 "minCard":0,
+                                 "maxCard":1,
+                                 "childItems":[],
+                                 "type":"QS",
+                                 "list":[
+                                    {
+                                       "selectionDeselectsSiblings":false,
+                                       "value":false,
+                                       "type":"Option",
+                                       "ID":"op.nn",
+                                       "title":"2B or not 2B",
+                                       "childItems":[
+                                          {
+                                             "minCard":0,
+                                             "maxCard":1,
+                                             "childItems":[],
+                                             "type":"QR",
+                                             "ID":"nested_nested_2",
+                                             "title":"nested nested question",
+                                             "responseField":{
+                                                "responseRequired":true,
+                                                "textAfterResponse":"",
+                                                "dType":"string",
+                                                "value":"lala"
+                                             }
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "ID":"nested_ID",
+                                 "title":"This is a nested question."
+                              }
+                           ]
+                        },
+                        {
+                           "selectionDeselectsSiblings":false,
+                           "value":false,
+                           "type":"Option",
+                           "ID":"20902.100004300",
+                           "title":"Cushing syndrome",
+                           "childItems":[
+                              
+                           ]
+                        },
+                        {
+                           "selectionDeselectsSiblings":false,
+                           "value":false,
+                           "type":"Option",
+                           "ID":"20904.100004300",
+                           "title":"Conn syndrome",
+                           "childItems":[
+                              
+                           ]
+                        },
+                        {
+                           "selectionDeselectsSiblings":false,
+                           "value":false,
+                           "type":"Option",
+                           "ID":"43052.100004300",
+                           "title":"Virilization",
+                           "childItems":[
+                              
+                           ]
+                        },
+                        {
+                           "selectionDeselectsSiblings":false,
+                           "value":false,
+                           "type":"Option",
+                           "ID":"44618.100004300",
+                           "title":"Feminization",
+                           "childItems":[
+                              
+                           ]
+                        },
+                        {
+                           "selectionDeselectsSiblings":false,
+                           "value":false,
+                           "type":"Option",
+                           "ID":"20906.100004300",
+                           "title":"Weight loss",
+                           "childItems":[
+                              
+                           ]
+                        },
+                        {
+                           "selectionDeselectsSiblings":false,
+                           "value":false,
+                           "type":"Option",
+                           "ID":"20907.100004300",
+                           "title":"Other (specify)",
+                           "responseField":{
+                              "responseRequired":true,
+                              "textAfterResponse":"",
+                              "dType":"string",
+                              "maxLength":4000,
+                              "value":"lala"
+                           },
+                           "childItems":[
+                              
+                           ]
+                        }
+                     ],
+                     "ID":"53772.100004300",
+                     "title":"Functional Status (Notes J and K)"
+                  }
+               ],
+               "type":"Section",
+               "ID":"17537.100004300",
+               "title":"CLINICAL"
+            }
+        ],
+        "procedureID": "1616012675572",
+        "name": "ADRENAL GLAND"
+    }
+}

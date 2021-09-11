@@ -1,0 +1,128 @@
+{
+    "body": [
+        {
+            "type": "DisplayedItem",
+            "ID": "39617.100004300",
+            "title": "# This checklist applies principally to adrenal carcinomas in adults. Pediatric adrenal cortical tumors have different criteria for malignancy and are, in general, treated under protocols that may differ significantly from the recommendations for adult- type tumors."
+        },
+        {
+            "minCard": 0,
+            "maxCard": 1,
+            "type": "Section",
+            "ID": "4257.100004300",
+            "title": "",
+            "childItems": [
+                {
+                    "minCard": 0,
+                    "maxCard": 1,
+                    "type": "QS",
+                    "ID": "2118.100004300",
+                    "title": "",
+                    "list": [
+                        {
+                            "selectionDeselectsSiblings": false,
+                            "type": "Option",
+                            "ID": "2119.100004300",
+                            "title": "Adrenal gland",
+                            "childItems": []
+                        }
+                    ],
+                    "childItems": []
+                }
+            ]
+        },
+        {
+            "minCard": 0,
+            "maxCard": 1,
+            "type": "Section",
+            "ID": "17537.100004300",
+            "title": "CLINICAL",
+            "childItems": [
+                {
+                    "minCard": 0,
+                    "maxCard": 1,
+                    "type": "QR",
+                    "ID": "4156.100004300",
+                    "title": "Clinical History (specify)",
+                    "responseField": {
+                        "responseRequired": true,
+                        "textAfterResponse": "",
+                        "dType": "string",
+                        "maxLength": 4000,
+                        "value": "Test response text"
+                    },
+                    "childItems": []
+                },
+                {
+                    "minCard": 0,
+                    "maxCard": 1,
+                    "maxSelection": 0,
+                    "minSelection": 1,
+                    "type": "QM",
+                    "ID": "53772.100004300",
+                    "title": "Functional Status (Notes J and K)",
+                    "list": [
+                        {
+                            "selectionDeselectsSiblings": false,
+                            "type": "Option",
+                            "ID": "20900.100004300",
+                            "title": "Urinary 17-ketosteroids increased (10 mg / g creatinine / 24 hours)",
+                            "childItems": []
+                        },
+                        {
+                            "selectionDeselectsSiblings": false,
+                            "type": "Option",
+                            "ID": "20902.100004300",
+                            "title": "Cushing syndrome",
+                            "childItems": []
+                        },
+                        {
+                            "selectionDeselectsSiblings": false,
+                            "type": "Option",
+                            "ID": "20904.100004300",
+                            "title": "Conn syndrome",
+                            "childItems": []
+                        },
+                        {
+                            "selectionDeselectsSiblings": false,
+                            "type": "Option",
+                            "ID": "43052.100004300",
+                            "title": "Virilization",
+                            "childItems": []
+                        },
+                        {
+                            "selectionDeselectsSiblings": false,
+                            "type": "Option",
+                            "ID": "44618.100004300",
+                            "title": "Feminization",
+                            "childItems": []
+                        },
+                        {
+                            "selectionDeselectsSiblings": false,
+                            "type": "Option",
+                            "ID": "20906.100004300",
+                            "title": "Weight loss",
+                            "childItems": []
+                        },
+                        {
+                            "selectionDeselectsSiblings": false,
+                            "type": "Option",
+                            "ID": "20907.100004300",
+                            "title": "Other (specify)",
+                            "responseField": {
+                                "responseRequired": true,
+                                "textAfterResponse": "",
+                                "dType": "string",
+                                "maxLength": 4000
+                            },
+                            "childItems": []
+                        }
+                    ],
+                    "childItems": []
+                }
+            ]
+        }
+    ],
+    "procedureID": "11111111",
+    "name": "ADRENAL GLAND"
+}

@@ -1,0 +1,25 @@
+.section{
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	margin: 10px 0px;
+}
+.section h2 {
+	background-color: #CECECE;
+	padding: 15px 5px 10px 20px;
+}
+
+.question{
+	margin:10px 0px;
+	padding: 0px 5px 10px 20px;
+}
+
+.question-title{
+	font-weight: bold;
+}
+
+.displayedItem {
+	padding: 0px 5px 10px 20px;
+}
+
+.not-created {
+	padding: 0px 5px 10px 20px;
+}
